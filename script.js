@@ -750,7 +750,7 @@ function paynow(pid) {
                 // Put the payment variables here
                 var payment = {
                     "sandbox": true,
-                    "merchant_id": "1224026",    // Replace your Merchant ID
+                    "merchant_id": "1224207",    // Replace your Merchant ID
                     "return_url": "http://localhost/eshop/singleProductView.php?id=" + pid,     // Important
                     "cancel_url": "http://localhost/eshop/singleProductView.php?id=" + pid,     // Important
                     "notify_url": "http://sample.com/notify",

@@ -122,7 +122,7 @@
 
                                             <div class="col-12">
                                                 <label class="form-label">Email</label>
-                                                <input type="text" id="email" class="form-control" value="<?php echo $email; ?>" />
+                                                <input type="text" id="email" class="form-control" readonly value="<?php echo $details_data["email"]; ?>" />
                                             </div>
 
                                             <div class="col-12">

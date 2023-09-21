@@ -25,8 +25,10 @@
                 </div>
 
                 <div class="col-12 btn-toolbar justify-content-end">
+                    <button class="btn btn-danger me-2"><i class="bi bi-filetype-pdf"></i> Send a mail</button>
                     <button class="btn btn-dark me-2"><i class="bi bi-printer-fill"></i> Print</button>
                     <button class="btn btn-danger me-2"><i class="bi bi-filetype-pdf"></i> Export as PDF</button>
+
                 </div>
 
                 <div class="col-12">
