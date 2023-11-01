@@ -30,7 +30,7 @@ if (isset($_GET["e"])) {
         $mail->addReplyTo('ilbandara141@gmail.com', 'Reset Password');
         $mail->addAddress($email);
         $mail->isHTML(true);
-        $mail->Subject = 'eShop Forget Password Verification Code';
+        $mail->Subject = 'mkshop Forget Password Verification Code';
         $bodyContent = '<h1 style="color:green">Your Verification Code is ' . $code . '</h1>';
         // $bodyContent .= '******************';
         $mail->Body    = $bodyContent;

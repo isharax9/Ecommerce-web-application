@@ -4,8 +4,8 @@
   <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title> eShop</title>
-      <link rel="icon" href="resourses/logo.svg">
+      <title> mkShop</title>
+      <link rel="icon" href="resourses/logo.png">
       <link rel="stylesheet" href="bootstrap.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
       <link rel="stylesheet" href="style.css">
@@ -23,8 +23,8 @@
                   <div class="row">
                       <div class="col-12 logo"></div>
                       <div class="col-12">
-                          <p class="text-center title01" style="font-family:honey;font-size: 30px;letter-spacing:
-                         3px;">Hi,Welcome to eShop</p>
+                          <p class="text-center title01"
+                         3px;">Hi,Welcome to mkShop</p>
                       </div>
                   </div>
               </div>
@@ -157,7 +157,7 @@
                                   <button class="btn btn-primary" onclick="signin();"> Sign In</button>
                               </div>
                               <div class="col-12 col-lg-6 d-grid">
-                                  <button class="btn btn-danger" onclick="ChangeView();"> New to eshop? Join Now </button>
+                                  <button class="btn btn-danger" onclick="ChangeView();"> New to mkshop? Join Now </button>
                               </div>
                           </div>
                       </div>
@@ -217,7 +217,7 @@
               <!-- footer -->
 
               <div class="col-12 d-none d-lg-block fixed-bottom">
-                  <p class="text-center">&copy;2023 eshop.lk || ALL Rights Reserved</p>
+                  <p class="text-center">&copy;2023 mkshop.lk || ALL Rights Reserved</p>
               </div>
 
               <!--footer -->

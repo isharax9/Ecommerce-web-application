@@ -21,17 +21,17 @@
             <div class="row text-sm-center text-md-start">
 
                 <div class="col-12 col-md-3 col-lg-3 mx-auto mt-3">
-                    <h5 class="text-uppercase text-warning mb-4">eshop</h5>
+                    <h5 class="text-uppercase text-warning mb-4">mkshop</h5>
                     <p>
-                        Here we are the eShop.lk&trade; to support you for accomplish
+                        Here we are the mkShop.lk&trade; to support you for accomplish
                         your dessire by selling high
                         quality products.
                     </p>
                 </div>
 
                 <div class="col-12 col-md-3 col-lg-3 mx-auto mt-3">
-                    <p>Copyright &copy; 2023 eShop.lk All Rights Reserved.</p>
-                    <p>Designed By <b>Java Institute&trade;</b></p>
+                    <p>Copyright &copy; 2023 mkShop.lk All Rights Reserved.</p>
+                    <p>Designed By <b>Ishara Lakshitha&trade;</b></p>
                 </div>
 
                 <div class="col-12 col-md-3 col-lg-2 mx-auto mt-3">
@@ -78,10 +78,10 @@
 
                     <h5 class="text-uppercase text-warning mb-4">Contacts</h5>
 
-                    <p><i class="bi bi-house-fill"></i> Maradana, Colombo 10, Sri Lanka</p>
-                    <p><i class="bi bi-envelope-at-fill"> eshop@gmail.com</i></p>
-                    <p><i class="bi bi-telephone-fill"></i> +94112 345 876</p>
-                    <p><i class="bi bi-printer-fill"></i> +94112 345 877</p>
+                    <p><i class="bi bi-house-fill"></i> 200/3, Railway Station Road, Ambalanpitiya, Sri Lanka</p>
+                    <p><i class="bi bi-envelope-at-fill"> isharax9@gmail.com</i></p>
+                    <p><i class="bi bi-telephone-fill"></i> +9470-433-9990</p>
+                    <p><i class="bi bi-printer-fill"></i> +9437-223-0024</p>
 
                 </div>
 

@@ -751,8 +751,8 @@ function paynow(pid) {
                 var payment = {
                     "sandbox": true,
                     "merchant_id": "1224207",    // Replace your Merchant ID
-                    "return_url": "http://localhost/eshop/singleProductView.php?id=" + pid,     // Important
-                    "cancel_url": "http://localhost/eshop/singleProductView.php?id=" + pid,     // Important
+                    "return_url": "http://localhost/mkshop/singleProductView.php?id=" + pid,     // Important
+                    "cancel_url": "http://localhost/mkshop/singleProductView.php?id=" + pid,     // Important
                     "notify_url": "http://sample.com/notify",
                     "order_id": obj["id"],
                     "items": obj["item"],

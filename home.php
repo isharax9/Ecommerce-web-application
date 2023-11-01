@@ -12,7 +12,7 @@ require "connection.php";
 
 <head>
 
-    <title>Home | eShop</title>
+    <title>Home | mkshop</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -102,7 +102,7 @@ require "connection.php";
                             <div class="carousel-item active" data-bs-interval="1000">
                                 <img src="resourses/slider images/posterimg.jpg" class="d-block poster-img-1" />
                                 <div class="carousel-caption d-none d-md-block poster-caption">
-                                    <h5 class="poster-title">Welcome to eShop</h5>
+                                    <h5 class="poster-title">Welcome to mkshop</h5>
                                     <p class="poster-txt">The World's Best Online Store By One Click.</p>
                                 </div>
                             </div>

@@ -1,12 +1,12 @@
  .main-body {
-    background-image: url("resourses/background-body.svg");
+    background-image: url("resourses/background-body.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 .logo{
-    background-image: url("resourses/logo.svg");
+    background-image: url("resourses/logo.png");
     height: 100px;
     background-position: center;
     background-size: contain;
@@ -21,15 +21,18 @@
     font-family:"honey";
     src: url("font/HoneyScript-Light.ttf");
 }
+@font-face {
+    font-family:"comic";
+    src: url("font/comic.ttf");
+}
 
 *{font-family:"Quicksand";
 font-size: 14px;}
 
 .title01{
-    font-family:honey;
-    font-size: 50px;
-    letter-spacing: 3px;
-    font-weight: bold;
+    font-family: 'forte';
+    font-size: 40px;
+    letter-spacing: 2px;
 }
 
 .background{

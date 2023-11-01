@@ -48,7 +48,7 @@
 
                     <div class="col-12 col-lg-6 dropdown">
                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            My eShop
+                            My mkshop
                         </button>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="userProfile.php">My Profile</a></li>

@@ -1,4 +1,4 @@
-# eShop Documentation
+# mkshop Documentation
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@
 
 ## Introduction
 
-eShop is a fully functional e-commerce web application designed to facilitate the buying and selling of products. It provides a seamless experience for both sellers and buyers, offering a wide range of features to enhance the online shopping experience.
+mkshop is a fully functional e-commerce web application designed to facilitate the buying and selling of products. It provides a seamless experience for both sellers and buyers, offering a wide range of features to enhance the online shopping experience.
 
 ## Features
 
@@ -66,7 +66,7 @@ Before getting started with the application, make sure you have the following in
 
 ### User Roles
 
-eShop supports two main user roles:
+mkshop supports two main user roles:
 
 - Sellers: Users who can list and manage products.
 - Buyers: Users who can browse, add to cart, and purchase products.
@@ -114,7 +114,7 @@ eShop supports two main user roles:
 
 ## Contributing
 
-If you'd like to contribute to eShop, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+If you'd like to contribute to mkshop, please follow our [Contribution Guidelines](CONTRIBUTING.md).
 
 ## Give a Star ⭐
 
@@ -122,5 +122,5 @@ Your support and feedback are highly valued, so if you find this project useful,
 
 ## License
 
-This project is licensed under the eShop - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the mkshop - see the [LICENSE](LICENSE) file for details.
 
