@@ -131,7 +131,7 @@ This project is licensed under the mkshop - see the [LICENSE](LICENSE) file for 
 
 ### Database ER documentation :-
 
-![](/resourses/eShop-new-ER.png)
+![](/resourses/eshop-new-ER.png)
 
 
 1\. Navigate to [http://localhost/web_project/index.php](http://localhost/web_project/index.php)
