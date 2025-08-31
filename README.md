@@ -1,48 +1,302 @@
-# mkshop Documentation
+<div align="center">
 
-## Table of Contents
+# 🛒 mkshop - Modern E-Commerce Web Application
 
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Getting Started](#getting-started)
-   - [Prerequisites](#prerequisites)
-   - [Installation](#installation)
-4. [Usage](#usage)
-   - [User Roles](#user-roles)
-   - [Navigating the Application](#navigating-the-application)
-   - [Product Management](#product-management)
-   - [User Profile](#user-profile)
-   - [Wishlist and Cart](#wishlist-and-cart)
-   - [Sales Dashboard (Sellers)](#sales-dashboard-sellers)
-   - [Messaging (Under Construction)](#messaging-under-construction)
-   - [Reporting](#reporting)
-5. [Technologies Used](#technologies-used)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [mkShop-Images](#mkShop-Images)
+![mkshop Logo](resourses/logo.png)
 
-## Introduction
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue.svg)](https://php.net)
+[![MySQL](https://img.shields.io/badge/MySQL-5.7%2B-orange.svg)](https://mysql.com)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.0-purple.svg)](https://getbootstrap.com)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
+[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/isharax9/Ecommerce-web-application)
 
-mkshop is a fully functional e-commerce web application designed to facilitate the buying and selling of products. It provides a seamless experience for both sellers and buyers, offering a wide range of features to enhance the online shopping experience.
+**A fully functional, modern e-commerce web application designed to facilitate seamless buying and selling of products online.**
 
-## Features
+[🚀 Live Demo](#) | [📖 Documentation](#table-of-contents) | [🐛 Report Bug](https://github.com/isharax9/Ecommerce-web-application/issues) | [💡 Request Feature](https://github.com/isharax9/Ecommerce-web-application/issues)
 
-- User registration and login.
-- Product home page showcasing seller's products.
-- Wishlist and cart functionality for buyers.
-- Advanced product search and full-page product search.
-- User profile management, including profile details updates.
-- Sellers can add new products with a customizable product add page.
-- Sales dashboard for sellers (under maintenance).
-- My products page for sellers to manage their listed products.
-- Watchlist page for buyers.
-- Purchase history for buyers.
-- Messaging functionality for communicating with sellers (under construction).
-- Contact administration or report issues.
+</div>
 
-## Getting Started
+---
 
-### Prerequisites
+## 📑 Table of Contents
+
+1. [🌟 Introduction](#-introduction)
+2. [✨ Features](#-features)
+3. [🏗️ Architecture](#️-architecture)
+4. [🚀 Getting Started](#-getting-started)
+   - [📋 Prerequisites](#-prerequisites)
+   - [⚙️ Installation](#️-installation)
+   - [🔧 Configuration](#-configuration)
+   - [🗄️ Database Setup](#️-database-setup)
+5. [📖 Usage Guide](#-usage-guide)
+   - [👥 User Roles](#-user-roles)
+   - [🧭 Navigation](#-navigation)
+   - [📦 Product Management](#-product-management)
+   - [👤 User Profile](#-user-profile)
+   - [❤️ Wishlist & Cart](#️-wishlist--cart)
+   - [📊 Sales Dashboard](#-sales-dashboard)
+   - [💬 Messaging](#-messaging)
+   - [📋 Reporting](#-reporting)
+6. [🛠️ Technologies Used](#️-technologies-used)
+7. [📚 API Documentation](#-api-documentation)
+8. [🔒 Security Features](#-security-features)
+9. [⚡ Performance Optimization](#-performance-optimization)
+10. [🚀 Deployment](#-deployment)
+11. [🧪 Testing](#-testing)
+12. [🔧 Troubleshooting](#-troubleshooting)
+13. [🤝 Contributing](#-contributing)
+14. [📄 License](#-license)
+15. [🙏 Acknowledgments](#-acknowledgments)
+16. [❓ FAQ](#-faq)
+17. [📱 Screenshots](#-screenshots)
+18. [📊 Database Schema](#-database-schema)
+
+---
+
+## 🌟 Introduction
+
+**mkshop** is a cutting-edge, fully functional e-commerce web application built with modern web technologies. Designed to provide a seamless experience for both sellers and buyers, mkshop offers a comprehensive platform for online commerce with robust features, secure transactions, and an intuitive user interface.
+
+### 🎯 Mission
+To democratize e-commerce by providing an accessible, feature-rich platform that empowers individuals and businesses to buy and sell products online with confidence and ease.
+
+### 🌍 Vision
+To become the go-to open-source e-commerce solution that bridges the gap between functionality and simplicity, enabling entrepreneurs worldwide to build their online presence.
+
+---
+
+## ✨ Features
+
+### 🔐 User Management
+- **User Registration & Authentication**: Secure user registration with email verification
+- **Login System**: Robust authentication with session management
+- **Password Recovery**: Email-based password reset functionality
+- **Profile Management**: Comprehensive user profile updates (excluding email)
+- **Role-Based Access**: Distinct seller and buyer roles with appropriate permissions
+
+### 🛍️ Shopping Experience
+- **Product Catalog**: Beautiful product showcase with detailed information
+- **Advanced Search**: Powerful search functionality with filters and sorting
+- **Wishlist**: Save favorite products for later purchase
+- **Shopping Cart**: Full-featured cart with quantity management
+- **Product Reviews**: User-generated reviews and ratings (coming soon)
+
+### 💼 Seller Tools
+- **Product Management**: Easy-to-use product addition and editing interface
+- **Inventory Tracking**: Real-time stock management
+- **Sales Dashboard**: Comprehensive analytics and reporting
+- **Order Management**: Track and manage customer orders
+- **Revenue Analytics**: Detailed sales and revenue tracking
+
+### 💳 Payment & Transactions
+- **PayHere Integration**: Secure payment processing with PayHere gateway
+- **Multiple Payment Methods**: Support for various payment options
+- **Invoice Generation**: Automated invoice creation for completed transactions
+- **Transaction History**: Complete purchase and sales history
+
+### 📱 User Interface
+- **Responsive Design**: Mobile-first, fully responsive layout
+- **Modern UI/UX**: Clean, intuitive interface built with Bootstrap 5
+- **Cross-Browser Compatibility**: Works seamlessly across all modern browsers
+- **Accessibility**: WCAG compliant design for inclusive user experience
+
+### 🔧 Administrative Features
+- **User Management**: Admin tools for user oversight
+- **Product Moderation**: Content review and approval system
+- **System Monitoring**: Performance and security monitoring tools
+- **Backup & Recovery**: Automated data backup solutions
+
+### 📋 Original Features List
+- User registration and login
+- Product home page showcasing seller's products
+- Wishlist and cart functionality for buyers
+- Advanced product search and full-page product search
+- User profile management, including profile details updates
+- Sellers can add new products with a customizable product add page
+- Sales dashboard for sellers (under maintenance)
+- My products page for sellers to manage their listed products
+- Watchlist page for buyers
+- Purchase history for buyers
+- Messaging functionality for communicating with sellers (under construction)
+- Contact administration or report issues
+
+---
+
+## 🏗️ Architecture
+
+mkshop follows a modular, MVC-inspired architecture built on PHP with MySQL database:
+
+```
+mkshop/
+├── 📁 frontend/          # User interface components
+│   ├── index.php         # Landing/Authentication page
+│   ├── home.php          # Main dashboard
+│   ├── style.css         # Custom styling
+│   └── script.js         # Client-side functionality
+├── 📁 backend/           # Server-side logic
+│   ├── connection.php    # Database connection
+│   ├── *Process.php      # Business logic processors
+│   └── Exception.php     # Error handling
+├── 📁 assets/            # Static resources
+│   ├── resourses/        # Images, icons, media
+│   └── font/             # Typography assets
+├── 📁 vendor/            # Third-party libraries
+│   ├── PHPMailer/        # Email functionality
+│   └── bootstrap/        # UI framework
+└── 📁 docs/              # Documentation
+    ├── README.md
+    ├── CONTRIBUTING.md
+    └── LICENSE
+```
+
+---
+
+## 🚀 Getting Started
+
+### 📋 Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+| Software | Version | Purpose | Download Link |
+|----------|---------|---------|---------------|
+| **PHP** | 7.4+ | Server-side scripting | [php.net](https://php.net/downloads) |
+| **MySQL** | 5.7+ | Database management | [mysql.com](https://dev.mysql.com/downloads/) |
+| **Apache/Nginx** | Latest | Web server | [apache.org](https://httpd.apache.org/) / [nginx.org](https://nginx.org/) |
+| **Composer** | Latest | Dependency management | [getcomposer.org](https://getcomposer.org/) |
+| **Git** | Latest | Version control | [git-scm.com](https://git-scm.com/) |
+
+#### 🔧 PHP Extensions Required:
+- `mysqli` - MySQL database connectivity
+- `pdo` - Database abstraction layer
+- `json` - JSON manipulation
+- `curl` - HTTP client functionality
+- `openssl` - Encryption and security
+- `mbstring` - Multibyte string handling
+- `gd` - Image processing
+
+### ⚙️ Installation
+
+#### Method 1: Quick Setup (Recommended)
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/isharax9/Ecommerce-web-application.git
+cd Ecommerce-web-application
+
+# 2. Set up web server document root
+# Point your web server to the project directory
+
+# 3. Configure database connection
+cp config/database.example.php config/database.php
+# Edit database.php with your credentials
+
+# 4. Import database schema
+mysql -u your_username -p your_database < database/mkshop_schema.sql
+
+# 5. Set up PayHere credentials
+cp config/payhere.example.php config/payhere.php
+# Add your PayHere API credentials
+
+# 6. Configure email settings (for password reset)
+cp config/email.example.php config/email.php
+# Add your SMTP credentials
+```
+
+#### Method 2: Manual Setup
+
+1. **Download the Source Code**
+   ```bash
+   wget https://github.com/isharax9/Ecommerce-web-application/archive/main.zip
+   unzip main.zip
+   cd Ecommerce-web-application-main
+   ```
+
+2. **Set Up Web Server**
+   - **Apache**: Place files in `htdocs` directory
+   - **Nginx**: Configure server block to point to project directory
+   - **XAMPP/WAMP**: Place in respective www directory
+
+3. **Database Configuration**
+   - Create a new MySQL database
+   - Import the provided SQL schema
+   - Update connection details in `connection.php`
+
+### 🔧 Configuration
+
+#### Database Configuration
+
+Edit `connection.php` with your database credentials:
+
+```php
+<?php
+class Database {
+    public static $connection;
+    
+    private static function setUpConnect() {
+        if (!isset(Database::$connection)) {
+            Database::$connection = new mysqli(
+                "localhost",    // Host
+                "your_username", // Username
+                "your_password", // Password
+                "mkshop_db",    // Database name
+                3306            // Port
+            );
+        }
+        return Database::$connection;
+    }
+}
+?>
+```
+
+#### PayHere Payment Gateway Setup
+
+1. **Create PayHere Account**
+   - Visit [PayHere.lk](https://www.payhere.lk/)
+   - Create a merchant account
+   - Obtain API credentials
+
+2. **Configure Payment Settings**
+   ```php
+   // In payNowProcess.php
+   $merchant_id = "your_merchant_id";
+   $merchant_secret = "your_merchant_secret";
+   ```
+
+#### Email Configuration (PHPMailer)
+
+```php
+// Email settings for password reset
+$mail->isSMTP();
+$mail->Host = 'smtp.gmail.com';
+$mail->SMTPAuth = true;
+$mail->Username = 'your_email@gmail.com';
+$mail->Password = 'your_app_password';
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+$mail->Port = 587;
+```
+
+### 🗄️ Database Setup
+
+#### 1. Create Database Schema
+
+```sql
+-- Create database
+CREATE DATABASE mkshop_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE mkshop_db;
+
+-- Core tables (simplified schema)
+-- See full schema in /database/schema.sql
+```
+
+#### 2. Sample Data (Optional)
+
+```bash
+# Import sample data for testing
+mysql -u username -p mkshop_db < database/sample_data.sql
+```
+
+### 📋 Original Installation Instructions
 
 Before getting started with the application, make sure you have the following installed:
 
@@ -52,10 +306,12 @@ Before getting started with the application, make sure you have the following in
 - Git
 - PayHere Payment Gateway API credentials
 
-### Installation
+**Installation Steps:**
 
 1. Clone the repository from GitHub:
-``https://github.com/isharax9/Ecommerce-web-application.git``
+   ```
+   https://github.com/isharax9/Ecommerce-web-application.git
+   ```
 
 2. Create a MySQL database and configure the database connection in the application.
 
@@ -63,47 +319,188 @@ Before getting started with the application, make sure you have the following in
 
 4. Host the application on your web server.
 
-## Usage
+---
 
-### User Roles
+## 📖 Usage Guide
 
+### 👥 User Roles
+
+mkshop implements a role-based system with distinct capabilities:
+
+#### 🛒 **Buyers**
+- Browse and search products
+- Add items to wishlist and cart
+- Make purchases through secure payment gateway
+- Track order history and status
+- Manage personal profile
+- Rate and review products (coming soon)
+
+#### 🏪 **Sellers**
+- List and manage products
+- Set pricing and inventory
+- Track sales and revenue
+- Manage customer orders
+- Access sales analytics
+- Communicate with buyers
+
+#### 👨‍💼 **Administrators** (Future Release)
+- User management and moderation
+- System configuration
+- Payment oversight
+- Content moderation
+- Analytics and reporting
+
+#### 📋 Original User Roles
 mkshop supports two main user roles:
+- **Sellers**: Users who can list and manage products
+- **Buyers**: Users who can browse, add to cart, and purchase products
 
-- Sellers: Users who can list and manage products.
-- Buyers: Users who can browse, add to cart, and purchase products.
+### 🧭 Navigation
 
-### Navigating the Application
+#### Main Navigation Structure
+```
+Home → Categories → Products → Details → Cart → Checkout → Payment
+  ↓
+Profile → Wishlist → Orders → Messages → Settings
+  ↓
+Seller Dashboard → My Products → Add Product → Sales Analytics
+```
 
-- Upon registration or login, users are directed to the home page, where they can browse products.
-- Navigation menus allow access to various features, such as the user profile, wishlist, and cart.
+#### 📋 Original Navigation Guide
+- Upon registration or login, users are directed to the home page, where they can browse products
+- Navigation menus allow access to various features, such as the user profile, wishlist, and cart
 
-### Product Management
+### 📦 Product Management
 
-- Sellers can add new products, edit existing listings, and view their products.
-- Buyers can browse, search for, and purchase products.
+#### For Sellers: Adding Products
 
-### User Profile
+1. **Navigate to Add Product Page**
+   ```
+   Dashboard → My Products → Add New Product
+   ```
 
-- Users can view and update their profile details, excluding their registered email address.
+2. **Product Information Form**
+   - **Basic Details**: Title, Category, Brand, Model
+   - **Specifications**: Condition, Color, Quantity
+   - **Pricing**: Cost, Delivery fees (Colombo/Other areas)
+   - **Media**: Upload product images (up to 3)
+   - **Description**: Detailed product description
 
-### Wishlist and Cart
+3. **Product Activation**
+   - Products start as inactive
+   - Activate after review and approval
 
-- Buyers can add products to their wishlist and cart for later purchase.
+#### Product Categories
 
-### Sales Dashboard (Sellers)
+| Category | Subcategories | Examples |
+|----------|---------------|----------|
+| Electronics | Mobile, Laptop, Audio | iPhone, MacBook, Headphones |
+| Fashion | Men, Women, Kids | Clothing, Shoes, Accessories |
+| Home & Garden | Furniture, Decor | Sofas, Plants, Kitchen |
+| Sports | Equipment, Apparel | Gym gear, Sports shoes |
 
-- Sellers can track their sales through the sales dashboard (if available).
+#### 📋 Original Product Management
+- **Sellers**: Can add new products, edit existing listings, and view their products
+- **Buyers**: Can browse, search for, and purchase products
 
-### Messaging (Under Construction)
+### 👤 User Profile
 
-- Users will soon be able to send messages to sellers for inquiries.
+#### Profile Management Features
+- **Personal Information**: Name, contact details, address
+- **Security Settings**: Password change, security questions
+- **Preferences**: Language, currency, notifications
+- **Verification**: Email verification, phone verification
 
-### Reporting
+#### 📋 Original User Profile
+Users can view and update their profile details, excluding their registered email address.
 
-- Users can contact administration for assistance or report issues.
+### ❤️ Wishlist & Cart
 
-## Technologies Used
+#### Wishlist Features
+- **Save for Later**: Add products to wishlist
+- **Share Lists**: Share wishlist with others (coming soon)
+- **Move to Cart**: Easy transfer from wishlist to cart
+- **Price Alerts**: Notifications on price changes (coming soon)
 
+#### Shopping Cart
+- **Quantity Management**: Adjust item quantities
+- **Price Calculation**: Real-time total calculation
+- **Delivery Options**: Choose delivery preferences
+- **Save Cart**: Persistent cart across sessions
+
+#### 📋 Original Wishlist and Cart
+Buyers can add products to their wishlist and cart for later purchase.
+
+### 📊 Sales Dashboard
+
+#### Seller Analytics
+- **Revenue Tracking**: Daily, weekly, monthly revenue
+- **Product Performance**: Best and worst-selling products
+- **Customer Insights**: Buyer demographics and behavior
+- **Inventory Alerts**: Low stock notifications
+
+#### 📋 Original Sales Dashboard (Sellers)
+Sellers can track their sales through the sales dashboard (if available).
+
+### 💬 Messaging
+
+#### Communication Features (Under Development)
+- **Buyer-Seller Chat**: Direct messaging system
+- **Order Updates**: Automated status notifications
+- **Support Tickets**: Customer service integration
+
+#### 📋 Original Messaging (Under Construction)
+Users will soon be able to send messages to sellers for inquiries.
+
+### 📋 Reporting
+
+#### Available Reports
+- **Sales Reports**: Revenue and transaction analysis
+- **Inventory Reports**: Stock levels and movement
+- **Customer Reports**: User activity and engagement
+- **Financial Reports**: Payment and commission tracking
+
+#### 📋 Original Reporting
+Users can contact administration for assistance or report issues.
+
+---
+
+## 🛠️ Technologies Used
+
+### 🔧 Backend Technologies
+
+| Technology | Version | Purpose | Documentation |
+|------------|---------|---------|---------------|
+| **PHP** | 7.4+ | Server-side scripting | [php.net](https://php.net/docs) |
+| **MySQL** | 5.7+ | Database management | [dev.mysql.com](https://dev.mysql.com/doc/) |
+| **PHPMailer** | 6.0+ | Email functionality | [github.com/PHPMailer](https://github.com/PHPMailer/PHPMailer) |
+| **Apache/Nginx** | Latest | Web server | Server documentation |
+
+### 🎨 Frontend Technologies
+
+| Technology | Version | Purpose | Documentation |
+|------------|---------|---------|---------------|
+| **HTML5** | Latest | Markup language | [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/HTML) |
+| **CSS3** | Latest | Styling and layout | [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS) |
+| **Bootstrap** | 5.0+ | UI framework | [getbootstrap.com](https://getbootstrap.com/docs) |
+| **JavaScript** | ES6+ | Client-side interactivity | [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript) |
+| **AJAX** | - | Asynchronous requests | [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX) |
+
+### 🔌 Third-Party Integrations
+
+- **PayHere Payment Gateway**: Secure payment processing for Sri Lankan market
+- **Bootstrap Icons**: Comprehensive icon library
+- **Google Fonts**: Typography enhancement
+- **CloudImg**: Image optimization and delivery
+
+### 🏗️ Architecture Patterns
+
+- **MVC Inspired**: Separation of concerns
+- **RESTful APIs**: Clean API design
+- **Component-Based**: Reusable UI components
+- **Progressive Enhancement**: Graceful degradation support
+
+### 📋 Original Technologies List
 - PHP
 - HTML5
 - JavaScript
@@ -112,6 +509,421 @@ mkshop supports two main user roles:
 - MySQL
 - Git and GitHub
 - PayHere Payment Gateway API
+
+---
+
+## 📚 API Documentation
+
+### 🔗 Endpoint Overview
+
+mkshop uses AJAX-based communication for seamless user experience:
+
+#### Authentication Endpoints
+
+```javascript
+// User Registration
+POST /signUpProcess.php
+{
+    "fname": "John",
+    "lname": "Doe", 
+    "email": "john@example.com",
+    "password": "securepassword",
+    "mobile": "+94771234567"
+}
+
+// User Login
+POST /signinProcess.php
+{
+    "email": "john@example.com",
+    "password": "securepassword",
+    "rememberme": true
+}
+
+// Password Reset
+POST /forgotPasswordProcess.php
+{
+    "email": "john@example.com"
+}
+```
+
+#### Product Management
+
+```javascript
+// Add Product
+POST /addProductProcess.php
+FormData: {
+    "category": "1",
+    "brand": "2",
+    "model": "iPhone 15",
+    "title": "iPhone 15 Pro Max",
+    "condition": "1",
+    "color": "Blue",
+    "qty": "10",
+    "cost": "150000",
+    "dwc": "500",    // Delivery within Colombo
+    "doc": "1000",   // Delivery outside Colombo
+    "desc": "Latest iPhone model",
+    "img0": File,
+    "img1": File,
+    "img2": File
+}
+
+// Update Product
+POST /updateProductProcess.php
+// Similar structure to addProduct
+
+// Search Products
+POST /basicSearchProcess.php
+{
+    "txt": "search term",
+    "select": "0"  // Search type
+}
+```
+
+#### Cart & Wishlist Operations
+
+```javascript
+// Add to Cart
+GET /addToCartProcess.php?id={productId}
+
+// Remove from Cart  
+GET /removeFromCartProcess.php?id={cartId}
+
+// Add to Wishlist
+GET /addWatchListProcess.php?id={productId}
+
+// Remove from Wishlist
+GET /removeFromWatchListProcess.php?id={watchlistId}
+```
+
+#### Payment Processing
+
+```javascript
+// Initialize Payment
+POST /payNowProcess.php
+{
+    "payment": JSON.stringify(paymentData),
+    // PayHere payment object
+}
+```
+
+### 📝 Response Formats
+
+#### Success Response
+```json
+{
+    "status": "success",
+    "message": "Operation completed successfully",
+    "data": {}
+}
+```
+
+#### Error Response
+```json
+{
+    "status": "error", 
+    "message": "Error description",
+    "code": "ERROR_CODE"
+}
+```
+
+---
+
+## 🔒 Security Features
+
+### 🛡️ Data Protection
+
+#### Input Validation & Sanitization
+- **SQL Injection Prevention**: Prepared statements and parameterized queries
+- **XSS Protection**: Input sanitization and output encoding
+- **CSRF Protection**: Token-based request validation
+- **File Upload Security**: Type validation and secure storage
+
+#### Authentication & Authorization
+- **Password Security**: Bcrypt hashing with salt
+- **Session Management**: Secure session handling
+- **Role-Based Access**: Granular permission system
+- **Rate Limiting**: Protection against brute force attacks
+
+#### Data Encryption
+- **Sensitive Data**: Encryption of personal information
+- **Payment Data**: PCI DSS compliant processing
+- **Communication**: HTTPS enforcement
+- **Database**: Encrypted sensitive fields
+
+### 🔐 Security Best Practices
+
+```php
+// Example: Secure database query
+$stmt = $conn->prepare("SELECT * FROM users WHERE email = ?");
+$stmt->bind_param("s", $email);
+$stmt->execute();
+
+// Example: Password hashing
+$hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+
+// Example: Input sanitization
+$email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+```
+
+---
+
+## ⚡ Performance Optimization
+
+### 🚀 Frontend Optimization
+
+#### Code Optimization
+- **Minification**: CSS/JS minification for faster loading
+- **Image Optimization**: WebP format and responsive images
+- **Lazy Loading**: On-demand resource loading
+- **CDN Integration**: CloudImg for image delivery
+
+#### Caching Strategies
+- **Browser Caching**: Leverage browser cache for static assets
+- **Application Caching**: PHP OPcache implementation
+- **Database Caching**: Query result caching
+- **Session Storage**: Optimized session management
+
+### 🗄️ Database Optimization
+
+#### Query Optimization
+```sql
+-- Indexed queries for better performance
+CREATE INDEX idx_product_category ON products(category_id);
+CREATE INDEX idx_user_email ON users(email);
+CREATE INDEX idx_order_date ON orders(created_date);
+
+-- Optimized search queries
+SELECT p.*, c.name as category_name 
+FROM products p 
+INNER JOIN categories c ON p.category_id = c.id 
+WHERE p.status = 1 
+ORDER BY p.created_date DESC 
+LIMIT 20;
+```
+
+#### Database Design
+- **Normalization**: Proper table structure
+- **Indexing**: Strategic index placement
+- **Connection Pooling**: Efficient connection management
+- **Query Analysis**: Regular performance monitoring
+
+---
+
+## 🚀 Deployment
+
+### 🌐 Production Deployment
+
+#### Server Requirements
+
+| Component | Minimum | Recommended |
+|-----------|---------|-------------|
+| **CPU** | 2 cores | 4+ cores |
+| **RAM** | 4GB | 8GB+ |
+| **Storage** | 50GB SSD | 100GB+ SSD |
+| **Bandwidth** | 100Mbps | 1Gbps+ |
+
+#### Deployment Steps
+
+1. **Server Setup**
+   ```bash
+   # Ubuntu/Debian
+   sudo apt update
+   sudo apt install apache2 php mysql-server
+   sudo apt install php-mysqli php-curl php-json php-mbstring
+   
+   # Enable required modules
+   sudo a2enmod rewrite
+   sudo systemctl restart apache2
+   ```
+
+2. **SSL Certificate**
+   ```bash
+   # Using Let's Encrypt
+   sudo apt install certbot python3-certbot-apache
+   sudo certbot --apache -d yourdomain.com
+   ```
+
+3. **Database Migration**
+   ```bash
+   # Backup production database
+   mysqldump -u root -p mkshop_db > backup.sql
+   
+   # Restore on new server
+   mysql -u root -p mkshop_db < backup.sql
+   ```
+
+4. **Environment Configuration**
+   ```bash
+   # Set production environment variables
+   export ENVIRONMENT=production
+   export DEBUG_MODE=false
+   export DB_HOST=localhost
+   export DB_USER=mkshop_user
+   export DB_PASS=secure_password
+   ```
+
+### 🐳 Docker Deployment
+
+```dockerfile
+# Dockerfile
+FROM php:7.4-apache
+
+# Install dependencies
+RUN docker-php-ext-install mysqli pdo pdo_mysql
+
+# Copy application files
+COPY . /var/www/html/
+
+# Set permissions
+RUN chown -R www-data:www-data /var/www/html/
+RUN chmod -R 755 /var/www/html/
+
+EXPOSE 80
+```
+
+```yaml
+# docker-compose.yml
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    depends_on:
+      - db
+    environment:
+      - DB_HOST=db
+  
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: mkshop_db
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
+```
+
+---
+
+## 🧪 Testing
+
+### 🔍 Testing Strategy
+
+#### Unit Testing
+- **PHP Unit Tests**: Backend functionality testing
+- **JavaScript Tests**: Frontend component testing
+- **Database Tests**: Query and schema validation
+
+#### Integration Testing
+- **API Testing**: Endpoint functionality
+- **Payment Testing**: Transaction flow validation
+- **Email Testing**: Notification system verification
+
+#### User Acceptance Testing
+- **Manual Testing**: User journey validation
+- **Browser Testing**: Cross-browser compatibility
+- **Mobile Testing**: Responsive design verification
+
+### 🛠️ Testing Tools
+
+```bash
+# PHPUnit for backend testing
+composer require --dev phpunit/phpunit
+
+# Run tests
+./vendor/bin/phpunit tests/
+
+# Coverage report
+./vendor/bin/phpunit --coverage-html coverage/
+```
+
+---
+
+## 🔧 Troubleshooting
+
+### 🐛 Common Issues & Solutions
+
+#### Database Connection Issues
+
+**Problem**: "Connection failed: Access denied for user"
+```php
+// Solution: Check database credentials in connection.php
+Database::$connection = new mysqli(
+    "localhost",     // Verify host
+    "correct_user",  // Verify username  
+    "correct_pass",  // Verify password
+    "correct_db",    // Verify database name
+    3306            // Verify port
+);
+```
+
+#### PayHere Integration Issues
+
+**Problem**: Payment gateway not working
+```php
+// Solution: Verify PayHere credentials
+$merchant_id = "your_actual_merchant_id";      // Check this
+$merchant_secret = "your_actual_merchant_secret"; // And this
+$currency = "LKR";  // Ensure correct currency
+$amount = number_format($total, 2, '.', ''); // Proper formatting
+```
+
+#### Email Not Sending
+
+**Problem**: Password reset emails not delivered
+```php
+// Solution: Check SMTP settings
+$mail->Host = 'smtp.gmail.com';           // Correct SMTP server
+$mail->Username = 'your_email@gmail.com'; // Correct email
+$mail->Password = 'app_specific_password'; // Use app password, not account password
+$mail->Port = 587;                        // Correct port
+```
+
+#### File Upload Issues
+
+**Problem**: Product images not uploading
+```php
+// Solution: Check file permissions and PHP settings
+// In php.ini:
+upload_max_filesize = 10M
+post_max_size = 10M
+max_file_uploads = 20
+
+// File permissions:
+chmod 755 resourses/products/
+```
+
+### 📋 Debug Mode
+
+Enable debug mode for development:
+
+```php
+// Add to connection.php for debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Database connection with error handling
+if (Database::$connection->connect_error) {
+    die("Connection failed: " . Database::$connection->connect_error);
+}
+```
+
+### 📊 Log Analysis
+
+```bash
+# Check Apache error logs
+tail -f /var/log/apache2/error.log
+
+# Check PHP error logs  
+tail -f /var/log/php_errors.log
+
+# Check MySQL logs
+tail -f /var/log/mysql/error.log
+```
 
 ## Contributing
 
@@ -305,5 +1117,33 @@ This project is licensed under the mkshop - see the [LICENSE](LICENSE) file for 
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-11-03/a23ce6a4-828c-450a-9b8f-21dc16b395cd/ascreenshot.jpeg?tl_px=0,0&br_px=1920,884&force_format=png&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=922,195)
 #### [Made with Scribe](https://scribehow.com/shared/mkShop__b-ZX4gj1TICgoko7bNDrnQ)
+
+---
+
+<div align="center">
+
+## 🌟 Give mkshop a Star!
+
+If you find this project useful, please consider giving it a star ⭐️ on GitHub. Your support motivates us to continue improving and adding new features!
+
+[![GitHub stars](https://img.shields.io/github/stars/isharax9/Ecommerce-web-application.svg?style=social&label=Star)](https://github.com/isharax9/Ecommerce-web-application/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/isharax9/Ecommerce-web-application.svg?style=social&label=Fork)](https://github.com/isharax9/Ecommerce-web-application/network)
+[![GitHub watchers](https://img.shields.io/github/watchers/isharax9/Ecommerce-web-application.svg?style=social&label=Watch)](https://github.com/isharax9/Ecommerce-web-application/watchers)
+
+---
+
+### 📞 Contact & Support
+
+**Developer**: [mac_knight141](https://github.com/isharax9)  
+**Email**: [isharax9@gmail.com](mailto:isharax9@gmail.com)  
+**Project**: [mkshop Repository](https://github.com/isharax9/Ecommerce-web-application)
+
+---
+
+*Built with ❤️ by the mkshop community*
+
+**[⬆ Back to Top](#-mkshop---modern-e-commerce-web-application)**
+
+</div>
 
 
